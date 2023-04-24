@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+/* Подключение стилей всех секиц */
+@import url(section-1__styleSheet.css);
+@import url(section-2__styleSheet.css);
+@import url(section-3__styleSheet.css);
+@import url(section-4__styleSheet.css);
+@import url(section-5__styleSheet.css);
+@import url(section-6__styleSheet.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    overflow-x: hidden;
+}
+
+.main {
+    display: block;
+}
+
+.main__header {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    transition: .5s;
+    z-index: 1000;
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1%;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nav__logo {
+    display: block;
+
+}
+
+.nav__button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.nav__button_box,
+.nav__button_box h3 a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.button__background {
+    display: block;
+    width: 10vw;
+    height: auto;
+
+}
+
+.button__background h3 a {
+    background-color: orangered;
+    border-radius: 20px;
+    /* width: 9vw;
+    height: auto; */
+    text-align: center;
+    padding: 15%;
+    font-weight: 300;
+}
+
+
+
+
+
+.section-6 {
+    display: block;
+}

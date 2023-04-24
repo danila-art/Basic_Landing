@@ -1,0 +1,81 @@
+.section-1 {
+    display: block;
+    background-image: url('../img/banner-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    width: 100vw;
+    height: auto;
+    padding-top: 10%;
+}
+
+.section-1__header {
+    display: block;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 10px;
+    margin: 0 auto;
+}
+
+.section-1__header h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-1__header h1 {
+    color: white;
+    font-size: 42px;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-1__text {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-1__text p {
+    color: white;
+    font-size: 18px;
+}
+
+.section-1__button {
+    display: block;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+
+.section-1__button a {
+    background: linear-gradient(rgb(16, 157, 192), rgba(16, 157, 192, 0.7));
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.section-1__notebook {
+    display: block;
+    width: 45vw;
+    height: auto;
+    margin: 3% auto;
+}
+
+.section-1__notebook img {
+    width: 100%;
+    height: 100%;
+}

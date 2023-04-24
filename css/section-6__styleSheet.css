@@ -1,0 +1,112 @@
+.section-6__hr {
+    display: block;
+    width: 10vw;
+    height: 5px;
+    background-color: rgb(225, 60, 0);
+    /* margin-bottom: 5%; */
+    margin: 2% auto;
+}
+
+.section-6__header {
+    text-align: center;
+    width: 30vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section-6__header b {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.section-6__header span {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.section-6__flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+}
+
+.section-6__container-box {
+    display: block;
+    position: relative;
+    width: 20vw;
+    height: 30vw;
+    border-radius: 10px;
+    border: 1px solid rgba(225, 60, 0, 0);
+    padding: 2%;
+}
+
+.section-6-container-box__flex-block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 4%;
+}
+
+.section-6__img-1 {
+    display: block;
+    width: 3vw;
+    height: auto;
+}
+
+.section-6__img-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.section-5-container-box__stars {
+    color: orangered;
+    font-size: 22px;
+}
+
+.section-6-container-box__text-content {
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.section-6-container-box__text-content p {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.section-6-container-box__flex-author {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-6-container-box-flex__author-img-box {
+    display: block;
+    position: relative;
+    width: 30%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.section-6-container-box-flex__author-img-box img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+
+}
+
+.section-6-container-box-flex__author-img-1 {
+    transform: scale(1.4) rotate(30deg);
+
+}
+
+.section-6-container-box__flex-author-data {
+    display: block;
+    margin-left: 5%;
+}

@@ -74,13 +74,13 @@
 
 .list-container__box {
     display: block;
-    position: relative;
-    /* background-color: darkgray; */
-    width: 12vw;
-    height: 15vh;
-    text-align: center;
-    border-radius: 50px;
-    transform: rotate(120deg);
+  position: relative;
+  background-color: darkgray;
+  width: 10vw;
+  height: 15vh;
+  text-align: center;
+  border-radius: 65px;
+  transform: rotate(120deg);
 }
 
 /* .list-container__box b {
@@ -103,15 +103,15 @@
 }
 
 .list-container__box-1 {
-    background: linear-gradient(rgb(5, 116, 68), rgb(74, 169, 127))
+    background: linear-gradient(rgb(48, 168, 116), rgb(0, 133, 93))
 }
 
 .list-container__box-2 {
-    background: linear-gradient(rgb(147, 66, 9), rgb(157, 87, 38))
+    background: linear-gradient(rgb(204, 123, 65), rgb(138, 61, 6))
 }
 
 .list-container__box-3 {
-    background: linear-gradient(rgb(7, 10, 92), rgb(37, 41, 147))
+    background: linear-gradient(rgb(36, 40, 146), rgb(3, 7, 121))
 }
 
 .list-container-box__text b {

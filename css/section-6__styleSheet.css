@@ -26,20 +26,27 @@
     font-size: 36px;
 }
 
-.section-6__flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+.section-6__container {
+    display: block;
     width: 80%;
     height: auto;
     margin: 5% auto;
+    overflow: hidden;
+    user-select: none;
+}
+
+.section-6__inner-items {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 200%;
 }
 
 .section-6__container-box {
     display: block;
     position: relative;
     width: 20vw;
-    height: 30vw;
+    height: auto;
     border-radius: 10px;
     border: 1px solid rgba(225, 60, 0, 0);
     padding: 2%;
@@ -109,4 +116,9 @@
 .section-6-container-box__flex-author-data {
     display: block;
     margin-left: 5%;
+}
+
+.section-6__container-box:hover {
+    border: 1px solid rgba(225, 60, 0, 1);
+    transition: .5s;
 }

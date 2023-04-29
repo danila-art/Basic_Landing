@@ -81,10 +81,22 @@ body {
     font-weight: 300;
 }
 
-
-
-
-
 .section-6 {
     display: block;
+}
+
+
+/* Module */
+.main__module{
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(87, 87, 87, 0.4);
+    z-index: 1000;
+    text-align: center;
+}
+.main__module iframe{
+    margin: 5% auto;
+    text-align: center;
 }

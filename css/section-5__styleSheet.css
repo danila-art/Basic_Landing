@@ -46,10 +46,12 @@
     width: 35vw;
     height: auto;
     padding: 4%;
+    transition: .5s;
 }
 
 .section-5-flex-container__img-box {
     position: relative;
+    transition: .5s;
 }
 
 .section-5-flex-container__img-box img {
@@ -106,4 +108,9 @@
 .social-icons-container__box img {
     width: 100%;
     height: auto;
+}
+
+.section-5-flex-container__img-box:hover .section-5__social-icons-container {
+    background-color: rgba(211, 79, 31, 0.7);
+    transition: .5s;
 }

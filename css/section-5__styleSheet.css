@@ -114,3 +114,24 @@
     background-color: rgba(211, 79, 31, 0.7);
     transition: .5s;
 }
+
+.section-5__button-open-module {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    width: 5vw;
+    height: 10vh;
+    top: 40%;
+    z-index: 10;
+    right: 45%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.section-5__button-open-module p {
+    display: block;
+    width: 30%;
+    margin: 23% auto;
+    font-size: 30px;
+}
